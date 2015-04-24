@@ -14,6 +14,10 @@ public class NumberWizard : MonoBehaviour {
 			
 			print ("The highest number you can pick is " + max);
 			print ("The lowest number you can pick is " + min);
+			
+			print ("Is the number higher or lower than 500?");
+			print ("Click the Up arrow for higher, Down for lower, Return for equal.");
+			
 	}
 	
 	// Update is called once per frame
