@@ -16,12 +16,28 @@ public class NumberWizard : MonoBehaviour {
 			print ("The lowest number you can pick is " + min);
 			
 			print ("Is the number higher or lower than 500?");
-			print ("Click the Up arrow for higher, Down for lower, Return for equal.");
+			print ("Up = higher, Down = lower, Return = equal.");
+			
+//			Input.GetKe
 			
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (Input.GetKeyDown ("space")){
+			print ("space key was pressed");
+		}
+//		else (Input.GetKeyDown ("UpArrow")){
+//			print ("up key was pressed");
+//		}
+//		if (Input.GetKeyDown ("downarrow")){
+//			print ("down key was pressed");
+//		}
+//		if (Input.GetKeyDown ("leftarrow")){
+//			print ("left key was pressed");
+//		}
+//		if (Input.GetKeyDown ("rightarrow")){
+//			print ("right key was pressed");
+//		}
 	}
 }
